@@ -4,7 +4,7 @@ def fun(a,n):
     i=0
     j=0
     while(i<(n-1)):
-        while(j<(n-1)and (a[i+1]<=a[i])):   # [100, 180, 260, 310, 40, 535, 695]
+        while(j<(n-1)and (a[i+1]<=a[i])):   
             i+1
         if(i==n-1):
             break
@@ -17,8 +17,8 @@ def fun(a,n):
 
 
 print('enter the stock amount ')
-#a=list(map(int,input().split()))
-a= [100, 180, 260, 310, 40, 535, 695]
+a=list(map(int,input().split()))
+
 n=len(a)
 
 print(a)
